@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Restoring Default Hosts File"
-cp -a /etc/MinimalHostsBlocker/defaulthosts /etc/hosts
+cp -a /etc/Spotifyadblocker/defaulthosts /etc/hosts
 echo "Restore Complete"
 chown root:wheel /etc/hosts
 chmod 644 /etc/hosts
@@ -10,6 +10,6 @@ killall -9 discoveryd
 killall -9 mDNSResponder
 echo "Should have died and restarted by now..."
 echo "Cleaning up the mess..."
-rm -rf /etc/MinimalHostsBlocker
+rm -rf /etc/Spotifyadblocker
 echo "You should be reset back to the default hosts file now!"
 exit 0

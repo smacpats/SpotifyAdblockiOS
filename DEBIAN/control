@@ -1,11 +1,9 @@
-Package: com.reddestdream.minimalhostsblocker
-Name: Minimal Hosts Blocker
-Version: 7.0.1
+Package: io.smacpats.spotifyadblock
+Name: SpotifyAdBlock
+Version: 1.0
 Architecture: iphoneos-arm
-Conflicts: com.thireus.untrustedhostsblockerexperimental, com.thireus.untrustedhostsblockerlight, com.thireus.untrustedhostsblocker, com.myrepospace.reddestdream.minimal, com.myrepospace.basic.basic
-Description: A minimal ad blocker!
-Depiction: http://arcetera.github.io/repodepictions/info/com.reddestdream.minimalhostsblocker/index.html
-Maintainer: arcetera <arc@plusreed.com>
-Author: ReddestDream <reddestdream@gmail.com>
+Conflicts: com.thireus.untrustedhostsblockerexperimental, com.reddestdream.minimalhostsblocker, com.thireus.untrustedhostsblockerlight, com.thireus.untrustedhostsblocker, com.myrepospace.reddestdream.minimal, com.myrepospace.basic.basic
+Description: spotify adblock.
+Maintainer: Smacpats
+Author: Smacpats <reddestdream@gmail.com>
 Section: Tweaks
-

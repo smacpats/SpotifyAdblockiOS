@@ -1,13 +1,13 @@
 #!/bin/bash
 
-chown root:wheel /etc/MinimalHostsBlocker
-chmod 755 /etc/MinimalHostsBlocker
-chown root:wheel /etc/MinimalHostsBlocker/minimalhosts
-chmod 644 /etc/MinimalHostsBlocker/minimalhosts
-chown root:wheel /etc/MinimalHostsBlocker/defaulthosts
-chmod 644 /etc/MinimalHostsBlocker/defaulthosts
+chown root:wheel /etc/Spotifyadblock
+chmod 755 /etc/Spotifyadblock
+chown root:wheel /etc/Spotifyadblock/minimalhosts
+chmod 644 /etc/Spotifyadblock/minimalhosts
+chown root:wheel /etc/Spotifyadblock/defaulthosts
+chmod 644 /etc/Spotifyadblock/defaulthosts
 echo "Overwriting hosts file..."
-cp -a /etc/MinimalHostsBlocker/minimalhosts /etc/hosts
+cp -a /etc/Spotifyadblock/minimalhosts /etc/hosts
 echo "Overwrite complete!"
 chown root:wheel /etc/hosts
 chmod 644 /etc/hosts
@@ -18,6 +18,6 @@ echo "Should have died and restarted by now..."
 echo "Deleting .git folder..."
 rm -rf .git
 echo ".git folder deleted!"
-echo "Enjoy Minimal Hosts Blocker!"
-echo "Please let me know if you find any ads or broken sites!"
+echo "Enjoy Spotify ad Blocker!"
+echo "Please let me know if you find any ads!"
 exit 0
